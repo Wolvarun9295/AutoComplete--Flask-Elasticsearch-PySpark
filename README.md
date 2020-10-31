@@ -44,7 +44,7 @@ $ python3 run.py
 **Directory Sturcture of the Flask App:**
 
 <img src=Screenshots/dirStructure.png height=”100”>
-<br>
+
 **The following screenshot shows the working of this project:**
 <img src=Screenshots/autocomplete.gif height=”100”>
 
