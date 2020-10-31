@@ -1,5 +1,10 @@
 # AutoSuggestion and AutoCorrection using Flask, Elasticsearch and PySpark
 This project shows the working of AutoSuggestion and AutoCorrection similar to how some websites suggest when a search query is typed in the search bar.
+
+There are 2 ways in which this project has been made:
+
+1. Using Completion Suggester with Mapping
+2. Using Fuzzy Query without Mapping
 #
 ## Prerequisites:
 - Python3 (**less than Python3.8** to avoid compatibility issues)
@@ -25,7 +30,9 @@ $ sudo pip3 install elasticsearch
 ```
 $ gunzip file.tar.gz
 ```
-2. First add your dataset path in the **dataToES.py** file and run to ingest the data in Elasticsearch. Running this file will first clean the data and the cleaned data will be stored in a folder named **movies_clean_dataset**, then it will create an index with the **Completion Suggester** mapping and then ingest the data to the index.
+2. First add your dataset path in the **dataToES.py** file and run to ingest the data in Elasticsearch. Running this file will first clean the data and then ingest the data to the index.
+
+    **NOTE:** If running the Completion Suggester option, the cleaned data will be stored in a folder named **movies_clean_dataset**  and it will create an index with the **Completion Suggester** mapping.
 ```
 $ python3 dataToES.py
 ```
