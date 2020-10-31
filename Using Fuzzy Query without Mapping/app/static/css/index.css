@@ -1,0 +1,33 @@
+html {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    width: 72vw;
+    height: 5vmax;
+    font-size: 4vw;
+    font-family: monospace;
+}
+
+#input {
+    padding-top: 5vh;
+    padding-left: 15vw;
+}
+
+body {
+    background-color: #b80808;
+}
+
+img {
+    width: 60vw;
+    padding-left: 21vw;
+    padding-top: 10vh;
+}
+
+#result {
+    display: none;
+}
