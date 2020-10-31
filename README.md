@@ -45,8 +45,6 @@ $ python3 run.py
 
 <img src=Screenshots/dirStructure.png height=”100”>
 <br>
-<br>
-
 **The following screenshot shows the working of this project:**
 <img src=Screenshots/autocomplete.gif height=”100”>
 
